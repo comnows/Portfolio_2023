@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+    <nav class="flex items-center justify-between flex-wrap bg-blue-charcoal p-6">
       <div class="block lg:hidden">
         <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
           <svg
@@ -13,25 +13,31 @@ const Navbar = () => {
           </svg>
         </button>
       </div>
-      <div class="w-full text-center flex-grow lg:flex lg:items-center lg:w-auto">
-        <div class="text-sm lg:flex-grow">
+      <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto">
+        <div class="text-lg text-center justify-center lg:flex lg:flex-grow font-semibold lg:gap-6">
           <a
             href="#responsive-header"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+            class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-white"
           >
-            Docs
+            Profile
           </a>
           <a
             href="#responsive-header"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+            class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-white"
           >
-            Examples
+            Works
           </a>
           <a
             href="#responsive-header"
-            class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
+            class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-white"
           >
-            Blog
+            Certificates
+          </a>
+          <a
+            href="#responsive-header"
+            class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-white"
+          >
+            Contact
           </a>
         </div>
       </div>
