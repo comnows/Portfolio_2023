@@ -13,7 +13,9 @@ export default {
         'blue-charcoal': '#04031e',
         'dark-royal-blue': '#02066f',
         'hawkes-blue': '#cbe5ff',
-        'midnight-blue': '#011d32'
+        'midnight-blue': '#011d32',
+        'black-pearl': '#021F23',
+        'aqua-green': '#17e2ad'
       }
     },
   },
