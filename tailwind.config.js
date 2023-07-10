@@ -15,7 +15,9 @@ export default {
         'hawkes-blue': '#cbe5ff',
         'midnight-blue': '#011d32',
         'black-pearl': '#021F23',
-        'aqua-green': '#17e2ad'
+        'aqua-green': '#17e2ad',
+        'midnight-purple': '#290038',
+        'pale-mauve': '#fcd6ff'
       }
     },
   },
