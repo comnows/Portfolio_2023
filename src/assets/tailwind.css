@@ -31,9 +31,16 @@
         }
     } */
 
-    @media (max-width: 794px) {
+    @media (max-width: 1440px) {
         h1 {
-            @apply text-4xl;
+            @apply text-6xl;
+        }
+    }
+
+    @media (max-width: 768px) {
+        h1 {
+            /* @apply text-5xl; */
+            font-size: clamp(2rem, 7vw, 3rem);
         }
     }
 }

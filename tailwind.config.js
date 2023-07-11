@@ -20,7 +20,11 @@ export default {
         'pale-mauve': '#fcd6ff'
       },
       width: {
-        '768px': '768px'
+        '768px': '768px',
+        '15vw': '15vw'
+      },
+      height: {
+        '15vh': '15vh'
       }
     },
   },

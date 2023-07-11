@@ -57,7 +57,7 @@ const Projects = () => {
           >
             {slideData.map((data) => (
               <SwiperSlide key={data.id}>
-                <div className="container text-aqua-green mx-auto mt-4 mb-6">
+                <div className="container text-aqua-green mx-auto mt-4 mb-8">
                   {data.path.includes("https") ? (
                     <iframe
                       src={data.path}
