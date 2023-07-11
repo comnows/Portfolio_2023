@@ -18,6 +18,9 @@ export default {
         'aqua-green': '#17e2ad',
         'midnight-purple': '#290038',
         'pale-mauve': '#fcd6ff'
+      },
+      width: {
+        '768px': '768px'
       }
     },
   },

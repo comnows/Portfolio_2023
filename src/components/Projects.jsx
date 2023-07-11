@@ -1,6 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import myProfilePic from "../assets/imgs/profile/my-profile-pic-1.jpg";
+import tinyAgentPic from "../assets/imgs/works/TinyAgent.jpg";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -9,31 +10,30 @@ import "swiper/css/pagination";
 const slideData = [
   {
     id: 1,
-    name: "PlantPlay",
-    path: "https://www.youtube.com/embed/2o48N3CODHU",
+    name: "VR FPS game",
+    path: "https://drive.google.com/file/d/1JqiN7TfBm_2TGOfEiG-Ks-hWmr38tsbj/preview",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "The immersive online Co-op FPS game created with Unity and Normcore Networking, offer players to engage in cross-platform gameplay on both PC and VR",
   },
   {
     id: 2,
-    name: "PlantPlay",
-    path: "https://www.youtube.com/embed/2o48N3CODHU",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    name: "Tiny Agent",
+    path: tinyAgentPic,
+    description: "The 2D action mobile game created with Unity",
   },
   {
     id: 3,
-    name: "PlantPlay",
-    path: "https://www.youtube.com/embed/2o48N3CODHU",
+    name: "Tangthai in Amazon",
+    path: "https://drive.google.com/file/d/196avqN7d-bWR8wk_OvZadtBVwqJm15QS/preview",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "An education game created by Unity. It provides information about the Amazon rainforest designed for kids aged 5 to 13.",
   },
   {
     id: 4,
     name: "PlantPlay",
     path: "https://www.youtube.com/embed/2o48N3CODHU",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "An E-commerce application created with Flutter, which allows trading merchandise related to indoor plants",
   },
 ];
 
@@ -66,7 +66,7 @@ const Projects = () => {
                       className="w-1/2 aspect-video mx-auto mb-6"
                     ></iframe>
                   ) : (
-                    <img src={data.path}></img>
+                    <img src={data.path} className=" w-768px mx-auto mb-6" />
                   )}
                   <div className="text-center text-2xl font-semibold mb-2">
                     {data.name}
