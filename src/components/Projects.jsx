@@ -39,7 +39,7 @@ const slideData = [
 
 const Projects = () => {
   return (
-    <div className="bg-black-pearl rounded-60px h-full m-2">
+    <div id="works" className="bg-black-pearl rounded-60px h-full m-2">
       <div className="flex pt-6 pb-8 pl-8 pr-4 md:pt-11 md:pb-14 md:pl-16 md:pr-12">
         <div className="flex flex-col w-full h-full">
           <h3 className="text-aqua-green font-semibold uppercase pl-4 md:pl-0">

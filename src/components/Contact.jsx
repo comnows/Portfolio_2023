@@ -1,9 +1,9 @@
 const Contact = () => {
   return (
-    <div className="bg-midnight-purple rounded-60px h-full m-2">
+    <div id="contact" className="bg-midnight-purple rounded-60px h-full m-2">
       <div className="flex pt-6 pb-8 md:pt-11 md:pb-14 md:pl-16">
         <div className="flex flex-col w-full h-full">
-          <h3 className=" text-pale-mauve font-semibold uppercase pl-12">
+          <h3 className=" text-pale-mauve font-semibold uppercase pl-12 md:pl-0">
             get in touch
           </h3>
           <div className="flex flex-col items-center justify-center text-lg font-semibold text-pale-mauve">
