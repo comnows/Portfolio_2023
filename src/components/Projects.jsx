@@ -1,7 +1,9 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
-import myProfilePic from "../assets/imgs/profile/my-profile-pic-1.jpg";
+
 import tinyAgentPic from "../assets/imgs/works/TinyAgent.jpg";
+import petPlanetPic from "../assets/imgs/works/PetPlanet.png";
+import blockenPic from "../assets/imgs/works/Blocken.png";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -10,30 +12,45 @@ import "swiper/css/pagination";
 const slideData = [
   {
     id: 1,
-    name: "VR FPS game",
-    path: "https://drive.google.com/file/d/1JqiN7TfBm_2TGOfEiG-Ks-hWmr38tsbj/preview",
+    name: "Tiny Agent",
+    path: tinyAgentPic,
     description:
-      "The immersive online Co-op FPS game created with Unity and Normcore Networking, offer players to engage in cross-platform gameplay on both PC and VR",
+      "The 2D action mobile game created with Unity. This project was completed during my sophomore year.",
   },
   {
     id: 2,
-    name: "Tiny Agent",
-    path: tinyAgentPic,
-    description: "The 2D action mobile game created with Unity",
-  },
-  {
-    id: 3,
     name: "Tangthai in Amazon",
     path: "https://drive.google.com/file/d/196avqN7d-bWR8wk_OvZadtBVwqJm15QS/preview",
     description:
-      "An education game created by Unity. It provides information about the Amazon rainforest designed for kids aged 5 to 13.",
+      "An education game created by Unity. It provides information about the Amazon rainforest designed for kids aged 5 to 13. This project was completed during my junior year and submitted for the NSC 2021, but it didn't qualified",
+  },
+  {
+    id: 3,
+    name: "Blocken",
+    path: blockenPic,
+    description:
+      "This game is on Blockman Go application. It's a multiplayer fighting game that offers a wide range of weapons for players to utilize. I worked on this project during my internship at Garena Thailand",
   },
   {
     id: 4,
+    name: "Pet Planet",
+    path: petPlanetPic,
+    description:
+      "This game is also on Blockman Go application. It's an animal simulation game that allows players to simulate being an animal. I worked on this project during my internship at Garena Thailand",
+  },
+  {
+    id: 4,
+    name: "VR FPS game",
+    path: "https://drive.google.com/file/d/1JqiN7TfBm_2TGOfEiG-Ks-hWmr38tsbj/preview",
+    description:
+      "The immersive online Co-op FPS game created with Unity and Normcore Networking, offer players to engage in cross-platform gameplay on both PC and VR. This project was completed during my senior year.",
+  },
+  {
+    id: 5,
     name: "PlantPlay",
     path: "https://www.youtube.com/embed/2o48N3CODHU",
     description:
-      "An E-commerce application created with Flutter, which allows trading merchandise related to indoor plants",
+      "An E-commerce application created with Flutter, which allows trading merchandise related to indoor plants. This project was completed during my senior year. I worked on the product page and navigation bar.",
   },
 ];
 
