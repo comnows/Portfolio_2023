@@ -1,3 +1,5 @@
+import "boxicons";
+
 const Contact = () => {
   return (
     <div id="contact" className="bg-midnight-purple rounded-60px h-full m-2">
@@ -8,7 +10,7 @@ const Contact = () => {
           </h3>
           <div className="flex flex-col items-center justify-center text-lg font-semibold text-pale-mauve">
             <div className="flex flex-row items-center gap-2">
-              <div>
+              <div className="flex">
                 <box-icon name="envelope" color="#fcd6ff" size="sm"></box-icon>
               </div>
               <span>
@@ -21,7 +23,7 @@ const Contact = () => {
               </span>
             </div>
             <div className="flex flex-row items-center gap-2">
-              <div>
+              <div className="flex">
                 <box-icon
                   name="facebook-circle"
                   type="logo"
@@ -39,7 +41,7 @@ const Contact = () => {
               </span>
             </div>
             <div className="flex flex-row items-center gap-2">
-              <div>
+              <div className="flex">
                 <box-icon name="github" type="logo" color="#fcd6ff"></box-icon>
               </div>
               <span>
@@ -53,7 +55,7 @@ const Contact = () => {
               </span>
             </div>
             <div className="flex flex-row items-center gap-2">
-              <div>
+              <div className="flex">
                 <box-icon name="phone" color="#fcd6ff"></box-icon>
               </div>
               <span>081-964-2050</span>
