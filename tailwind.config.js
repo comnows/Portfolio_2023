@@ -17,11 +17,15 @@ export default {
         'black-pearl': '#021F23',
         'aqua-green': '#17e2ad',
         'midnight-purple': '#290038',
-        'pale-mauve': '#fcd6ff'
+        'pale-mauve': '#fcd6ff',
+        'dark-jungle': '#1b1b1f',
+        'biloba-flower': '#a5a1ff',
+        'reef-green': '#d0ff94'
       },
       width: {
         '768px': '768px',
-        '15vw': '15vw'
+        '15vw': '15vw',
+        '3/10': '30%'
       },
       height: {
         '15vh': '15vh'

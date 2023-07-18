@@ -29,10 +29,10 @@ const Profile = () => {
     >
       <div className="container flex flex-col lg:flex-row items-center justify-center pt-20 pb-20 pl-10 pr-10 lg:pl-20 lg:pr-20">
         <div className="flex flex-col justify-center text-center md:text-left text-midnight-blue lg:w-1/2 lg:pl-6">
-          <h2 className="font-semibold mb-2">
+          <h2 className="mb-2">
             <TypeAnimation cursor={false} sequence={["Hi, I'm"]} repeat={0} />
           </h2>
-          <h1 className="font-bold mb-4">
+          <h1 className="mb-4">
             <TypeAnimation
               ref={ref}
               cursor={false}
@@ -45,7 +45,6 @@ const Profile = () => {
               repeat={0}
             />
           </h1>
-          {/* <h1 className="font-bold mb-4">Luaengtawekul</h1> */}
           <div className=" text-2xl mb-6">
             <TypeAnimation
               sequence={[

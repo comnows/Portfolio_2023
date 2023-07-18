@@ -66,6 +66,10 @@ const Projects = () => {
             modules={[Navigation, Pagination]}
             navigation
             pagination={{ clickable: true }}
+            style={{
+              "--swiper-pagination-color": "#17e2ad",
+              "--swiper-navigation-color": "#17e2ad",
+            }}
             spaceBetween={10}
             slidesPerView={1}
             onSwiper={(swiper) => console.log(swiper)}
@@ -95,34 +99,7 @@ const Projects = () => {
                 </div>
               </SwiperSlide>
             ))}
-            {/* <SwiperSlide>
-              <div className="container text-aqua-green mx-auto mt-4 mb-6">
-                <iframe
-                  src="https://www.youtube.com/embed/2o48N3CODHU"
-                  title="YouTube video player"
-                  allowFullScreen
-                  className="w-1/2 aspect-video mx-auto mb-6"
-                ></iframe>
-                <div className="text-center text-2xl font-semibold mb-2">
-                  PlantPlay
-                </div>
-                <div className="text-center text-xl">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide> */}
           </Swiper>
-
-          {/* <Swiper modules={[Navigation]} navigation slidesPerView={1} loop>
-            <SwiperSlide>Slide 1</SwiperSlide>
-          </Swiper> */}
-          {/* <div className="flex justify-center">
-            <img src={myProfilePic} alt="" />
-          </div> */}
         </div>
       </div>
     </div>
