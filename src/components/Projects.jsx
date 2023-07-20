@@ -20,7 +20,7 @@ const slideData = [
   {
     id: 2,
     name: "Tangthai in Amazon",
-    path: "https://drive.google.com/file/d/196avqN7d-bWR8wk_OvZadtBVwqJm15QS/preview",
+    path: "https://www.youtube.com/embed/QYhCsCSH4lw",
     description:
       "An education game created by Unity. It provides information about the Amazon rainforest designed for kids aged 5 to 13. This project was completed during my junior year and submitted for the NSC 2021, but it didn't qualified",
   },
@@ -41,7 +41,7 @@ const slideData = [
   {
     id: 5,
     name: "VR FPS game",
-    path: "https://drive.google.com/file/d/1JqiN7TfBm_2TGOfEiG-Ks-hWmr38tsbj/preview",
+    path: "https://www.youtube.com/embed/EJfr6N9M9-s",
     description:
       "The immersive online Co-op FPS game created with Unity and Normcore Networking, offer players to engage in cross-platform gameplay on both PC and VR. This project was completed during my senior year.",
   },
