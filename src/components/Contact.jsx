@@ -1,5 +1,7 @@
 import "boxicons";
 
+import githubIcon from "../assets/imgs/logo/github-logo.png";
+
 const Contact = () => {
   return (
     <div id="contact" className="bg-midnight-purple rounded-60px h-full m-2">
@@ -25,7 +27,7 @@ const Contact = () => {
             <div className="flex flex-row items-center gap-2">
               <div className="flex">
                 <box-icon
-                  name="facebook-circle"
+                  name="facebook"
                   type="logo"
                   color="#fcd6ff"
                 ></box-icon>
@@ -42,7 +44,7 @@ const Contact = () => {
             </div>
             <div className="flex flex-row items-center gap-2">
               <div className="flex">
-                <box-icon name="github" type="logo" color="#fcd6ff"></box-icon>
+                <img src={githubIcon} alt="Github" className="w-6" />
               </div>
               <span>
                 <a

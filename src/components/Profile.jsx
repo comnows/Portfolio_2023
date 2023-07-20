@@ -71,7 +71,7 @@ const Profile = () => {
           </div>
         </div>
         <div className="lg:w-96 m-9">
-          <img src={myProfilePic} alt="" className="rounded-60px" />
+          <img src={myProfilePic} alt="ProfilePic" className="rounded-60px" />
         </div>
       </div>
     </div>

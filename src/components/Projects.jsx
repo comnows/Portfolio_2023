@@ -39,14 +39,14 @@ const slideData = [
       "This game is also on Blockman Go application. It's an animal simulation game that allows players to simulate being an animal. I worked on this project during my internship at Garena Thailand",
   },
   {
-    id: 4,
+    id: 5,
     name: "VR FPS game",
     path: "https://drive.google.com/file/d/1JqiN7TfBm_2TGOfEiG-Ks-hWmr38tsbj/preview",
     description:
       "The immersive online Co-op FPS game created with Unity and Normcore Networking, offer players to engage in cross-platform gameplay on both PC and VR. This project was completed during my senior year.",
   },
   {
-    id: 5,
+    id: 6,
     name: "PlantPlay",
     path: "https://www.youtube.com/embed/2o48N3CODHU",
     description:

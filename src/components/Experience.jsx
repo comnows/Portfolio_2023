@@ -10,7 +10,7 @@ const Experience = () => {
           </h3>
           <div className="flex flex-col lg:flex-row gap-6 items-center justify-center pt-5 pb-5">
             <div className="lg:w-96">
-              <img src={garenaLogo} alt="" />
+              <img src={garenaLogo} alt="Garena" />
             </div>
             <div className="flex flex-col justify-center text-center text-gray-300 md:text-left lg:w-3/10">
               <h3 className="font-semibold mb-2">July 2022 - December 2022</h3>
