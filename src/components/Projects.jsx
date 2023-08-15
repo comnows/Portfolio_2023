@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 
-import tinyAgentPic from "../assets/imgs/works/TinyAgent.jpg";
+// import tinyAgentPic from "../assets/imgs/works/TinyAgent.jpg";
 import petPlanetPic from "../assets/imgs/works/PetPlanet.png";
 import blockenPic from "../assets/imgs/works/Blocken.png";
 
@@ -13,7 +13,7 @@ const slideData = [
   {
     id: 1,
     name: "Tiny Agent",
-    path: tinyAgentPic,
+    path: "https://www.youtube.com/embed/WISVtyGuBGo",
     description:
       "The 2D action mobile game created with Unity. This project was completed during my sophomore year.",
   },
